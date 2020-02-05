@@ -1,6 +1,6 @@
-import React from 'react';
+import { createMuiTheme } from "@material-ui/core/styles";
 
-const ThemeLight = {
+export default createMuiTheme({
   primary: {
     textColor: "#000",
     backgroundColor: "#FFFFFF"
@@ -9,6 +9,4 @@ const ThemeLight = {
     textColor: "#777777",
     backgroundColor: "#A0A0A0"
   }
-};
-
-export default ThemeLight;
+});

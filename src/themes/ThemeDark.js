@@ -1,6 +1,7 @@
-import React from 'react';
 
-const ThemeDark = {
+import { createMuiTheme } from "@material-ui/core/styles";
+
+export default createMuiTheme({  
   primary: {
     textColor: "#FFFFFF",
     backgroundColor: "#000000"
@@ -9,6 +10,4 @@ const ThemeDark = {
     textColor: "#AAAAAA",
     backgroundColor: "#333333"
   }
-};
-
-export default ThemeDark;
+});
