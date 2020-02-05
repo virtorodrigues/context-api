@@ -5,6 +5,7 @@ import Home from './components/Home';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import ThemeContext from './context/ThemeContext';
 import { createMuiTheme } from '@material-ui/core/styles';
+import './App.css';
 
 const App = () => {
   const [theme, setTheme] = useState(ThemeDefault);

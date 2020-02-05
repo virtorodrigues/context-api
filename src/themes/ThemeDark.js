@@ -9,5 +9,6 @@ export default createMuiTheme({
   secondary: {
     textColor: "#AAAAAA",
     backgroundColor: "#333333"
-  }
+  },
+  name: "Dark",
 });

@@ -6,7 +6,8 @@ export default createMuiTheme({
     backgroundColor: "#FFFFFF"
   },
   secondary: {
-    textColor: "#777777",
+    textColor: "#333",
     backgroundColor: "#A0A0A0"
-  }
+  },
+  name: "Light",
 });
